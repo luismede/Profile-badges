@@ -12,4 +12,4 @@
 
 **3.** *You need two submitted answers in any categories you want to get the Galaxy Brain achievement*
 
-**4.** *Done , Now you can see that Galaxy Brain Achievement in your profile.*
+**4.** **Done ✅!**, *Now you can see that Galaxy Brain Achievement in your profile.*
