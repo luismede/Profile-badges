@@ -1,8 +1,8 @@
 <div align="center">
 <img width="109" src="/badges/pull-shark-default.png"> 
-</div>
 
 # Pull Shark - Badge
+</div>
 
 ## How to get Pull Shark GitHub Badge
 
