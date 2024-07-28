@@ -18,17 +18,17 @@ You can opt out from having achievements displayed on your profile by going to y
 <br>
 <br>
 
-# List badges
+# List of emblems
 
 <br>
 
 | Badge | Name | How to get  | Difficulty level |
 | :---: | --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------ |
-| <img width="109" alt="starstruck-default" src="https://github.com/user-attachments/assets/d133ebb1-5460-4741-a036-754f362149cd"> | **Starstruck** | Created a repository that has **16 stars** or [more](#badge-tiers).                                                                                              | Hard |
+| <img width="109" alt="starstruck-default" src="https://github.com/user-attachments/assets/d133ebb1-5460-4741-a036-754f362149cd"> | **Starstruck** | Created a repository that has **16 stars** or [more](#tiers).                                                                                              | Hard |
 | <img width="109" alt="QuickDraw_SkinTone1" src="https://github.com/user-attachments/assets/9a5c0ba0-226d-4a7b-911e-d9794c632863"> | **Quickdraw** | Closed an issue or a pull request within 5 min of opening.                                                                                                       | Very easy |
-| <img width="109" alt="pair-extraordinaire-default" src="https://github.com/user-attachments/assets/a7cc2270-94b0-4dd4-87c7-862fda8880e4"> | **Pair Extraordinaire** | Coauthored in **one** or [more](#badge-tiers) merged pull requests. (Requires GitHub Desktop App)                                                                                        | Hard |
-| <img width="109" alt="pull-shark-default" src="https://github.com/user-attachments/assets/460bb461-7141-498c-a4ba-77d0be2dabb5"> | **Pull Shark** | **2 pull requests** merged (or [more](#badge-tiers)).                                                                                                            | Easy |
-| <img width="109" alt="GalaxyBrain" src="https://github.com/user-attachments/assets/52bdfdc7-bc5d-483f-a331-ecbd683d3992"> | **Galaxy Brain** | 2 accepted answers or [more](#badge-tiers). <br> *Now unable to earn via [Community discussions](https://github.com/orgs/community/discussions/), for more information see [here](https://github.com/orgs/community/discussions/106536).*                                                                                                                       | Medium |
+| <img width="109" alt="pair-extraordinaire-default" src="https://github.com/user-attachments/assets/a7cc2270-94b0-4dd4-87c7-862fda8880e4"> | **Pair Extraordinaire** | Coauthored in **one** or [more](#tiers) merged pull requests. (Requires GitHub Desktop App)                                                                                        | Hard |
+| <img width="109" alt="pull-shark-default" src="https://github.com/user-attachments/assets/460bb461-7141-498c-a4ba-77d0be2dabb5"> | **Pull Shark** | **2 pull requests** merged (or [more](#tiers)).                                                                                                            | Easy |
+| <img width="109" alt="GalaxyBrain" src="https://github.com/user-attachments/assets/52bdfdc7-bc5d-483f-a331-ecbd683d3992"> | **Galaxy Brain** | 2 accepted answers or [more](#tiers). <br> *Now unable to earn via [Community discussions](https://github.com/orgs/community/discussions/), for more information see [here](https://github.com/orgs/community/discussions/106536).*                                                                                                                       | Medium |
 | <img width="109" alt="YOLO_Badge" src="https://github.com/user-attachments/assets/5a6f79d4-d71d-4a00-b7ef-a4fce93272f5"> | **YOLO** | Merged **at least one** pull request without code review .                                                                                                       | Easy |
 | <img width="109" alt="GitHubSponsorBadge" src="https://github.com/user-attachments/assets/cc522bc9-fd28-4674-b541-56a7f2d82561"> | **Public Sponsor** | Sponsoring open source work via [GitHub Sponsors](https://github.com/sponsors).                                                                                  | Medium |
 

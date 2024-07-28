@@ -158,10 +158,6 @@ h1 {
     font-size: 35px;
 }
 
-.hidden {
-    display: none;
-}
-
 .icons-area {
     grid-gap: 40px 50px;
 
