@@ -1,3 +1,5 @@
+<img src="/badges/Banner.svg/">
+
 # Lista completa de todos os emblemas de perfil do GitHub
 Você pode optar por não ter suas conquistas exibidas em seu perfil acessando [Profile settings](https://github.com/settings).
 
