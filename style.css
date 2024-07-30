@@ -151,6 +151,12 @@ h1 {
     font-size: 30px;
 }
 
+.final-follow {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .final-follow h1 {
     font-size: 38px; margin-top: 100px;
 }
@@ -192,12 +198,15 @@ h1 {
 
 .license p {
     margin-bottom: 30px;
+    margin-top: 30px;
+
 }
 
 @media only screen and (max-width: 650px) {
 
     h1 {
         font-size: 35px;
+
     }
 
     .icons-area, .icons-area-tiers, .icons-area-skin, .icons-area-unreachable {
@@ -209,40 +218,28 @@ h1 {
 
     }
 
-    .final-follow h1 {
-        font-size: 35px;
-    }
-    
-
-    .more {
-        font-size:  20px;
-    }
-
 }
 
 @media only screen and (max-width: 450px) {
     h1 {
-        font-size: 25px;
-        display: grid;
+        font-size: 22px;
+
     }
 
     .more {
-        font-size:  15px;
+        font-size: 20px;
     }
+
 
     p {
         font-size: 15px;
     }
 
-    .final-follow h1 {
-        font-size: 25px; 
-    }
-
-    .final-follow p {
-        font-size: 15px;
-        margin-top: 50px;
-    }
     .icons-area img, .icons-area-tiers img, .icons-area-unreachable img, .icons-area-skin img {
         width: 80px;
+    }
+
+    .license p {
+        font-size: 15px;
     }
 }
