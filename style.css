@@ -9,11 +9,11 @@ html, body {
     background: #E2E2E2;
     scrollbar-width: thin;          /* "auto" or "thin" */
     scrollbar-color: #00b7ff #ffffff;
+    
 }
 
 
 header {
-    justify-content: space-between;
     padding: 20px 12%;
     width: 100%;
     background-color: #D6D6D6;
@@ -24,22 +24,17 @@ header {
 
 .logo {
     width: 60px;
-    padding-top: 15px;
 }
 
 h1 {
     font-family: "Inter", sans-serif;
     font-weight: 900;
     color: #292A35;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     margin-top: 80px;
     font-size: 48px;
 }
 
-.icons-area, .icons-area-tiers, .icons-area-skin {
+.icons-area, .icons-area-tiers, .icons-area-skin, .icons-area-unreachable {
     padding: 80px 10vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -48,18 +43,18 @@ h1 {
     align-items: center;
 }
 
-.icons-area-tiers, .icons-area-skin {
+.icons-area-tiers, .icons-area-skin, .icons-area-unreachable {
     grid-template-columns: repeat(3, 1fr);
     padding: 80px 20vw;
 }
 
-.icons-area img,.icons-area-tiers  img, .icons-area-skin img {
+.icons-area img,.icons-area-tiers  img, .icons-area-skin img, .icons-area-unreachable img {
     width: 109px;
     filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.25));
 
 }
 
-.icons-area p {
+.icons-area, .icons-area-unreachable p {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     text-align: center;
@@ -76,6 +71,7 @@ h1 {
     margin-top: 15px;
     cursor: pointer;
     filter: drop-shadow(0 0.2rem 0.5rem rgba(0, 0, 0, 0.25));
+    transition: 50ms;
 
 }
 
@@ -119,7 +115,6 @@ h1 {
     margin-top: 10px;
 }
 .final-button {
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -130,13 +125,17 @@ h1 {
     border-radius: 10px;
     background: rgb(255,136,35);
     background: linear-gradient(45deg, rgba(255,136,35,1) 0%, rgba(255,225,68,1) 100%);
-    padding: .8rem 6rem ;
+    padding: .7rem 4rem ;
     color: #fff;
-    font-size: 15px;
     margin-top: 10px;
     margin-bottom: 80px;
     cursor: pointer;
     filter: drop-shadow(0 0.2rem 0.5rem rgba(0, 0, 0, 0.25));
+    transition: 200ms;
+}
+
+.button-tiers:hover {
+    opacity: 0.8;
 }
 
 .button-tiers:active {
@@ -158,6 +157,11 @@ h1 {
     margin-bottom: 80px;
     cursor: pointer;
     filter: drop-shadow(0 0.2rem 0.5rem rgba(0, 0, 0, 0.25));
+    transition: 200ms;
+}
+
+.follow:hover {
+    opacity: 0.8;
 }
 
 .follow:active {
@@ -165,7 +169,6 @@ h1 {
 }
 
 .license {
-    justify-content: space-between;
     width: 100%;
     background-color: #d6d6d6;
     display: flex;
@@ -179,22 +182,32 @@ h1 {
 }
 
 @media only screen and (max-width: 650px) {
-    .icons-area, .icons-area-tiers, .icons-area-skin {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .icons-area, .icons-area-tiers, .icons-area-skin, .icons-area-unreachable {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 }
-
-
-}
-
-@media only screen and (max-width: 450px) {
-h1 {
-    font-size: 35px;
-}
-
-.icons-area {
+.icons-area, .icons-area-tiers, .icons-area-skin, .icons-area-unreachable {
     grid-gap: 40px 50px;
 
 }
+}
 
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 25px;
+        display: grid;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .icons-area img, .icons-area-tiers img, .icons-area-unreachable img, .icons-area-skin img {
+        width: 80px;
+    }
 }
