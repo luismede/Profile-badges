@@ -151,6 +151,15 @@ h1 {
     font-size: 30px;
 }
 
+.final-follow h1 {
+    font-size: 38px; margin-top: 100px;
+}
+
+.final-follow p {
+    margin-top: 50px; margin-bottom: 50px;
+}
+
+
 .follow {
     border: none;
     border-radius: 10px;
@@ -199,6 +208,16 @@ h1 {
     grid-gap: 40px 50px;
 
     }
+
+    .final-follow h1 {
+        font-size: 35px;
+    }
+    
+
+    .more {
+        font-size:  20px;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -207,10 +226,22 @@ h1 {
         display: grid;
     }
 
+    .more {
+        font-size:  15px;
+    }
+
     p {
         font-size: 15px;
     }
 
+    .final-follow h1 {
+        font-size: 25px; 
+    }
+
+    .final-follow p {
+        font-size: 15px;
+        margin-top: 50px;
+    }
     .icons-area img, .icons-area-tiers img, .icons-area-unreachable img, .icons-area-skin img {
         width: 80px;
     }
